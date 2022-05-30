@@ -1,0 +1,14 @@
+{
+    "cSpell.words": [
+        "axios",
+        "Consts",
+        "flds",
+        "linebreak",
+        "vuetify",
+        "vuex"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+    },
+    "editor.formatOnSave": true,
+}
