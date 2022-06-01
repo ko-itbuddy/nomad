@@ -13,7 +13,7 @@ function Hello() {
   return (<h1>Hello</h1>);
 }
 
-function App() {
+export default function CleanUp() {
   const [showing, setShowing] = useState(false);
   const onClick = () => setShowing((prev) => !prev);
 
@@ -28,4 +28,3 @@ function App() {
     </div>
   );
 }
-export default App;

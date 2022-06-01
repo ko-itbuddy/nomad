@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function App() {
+export default function UseState() {
   const [counter, setValue] = useState(0);
   const [keyword, setKeyword] = useState('');
   const onClick = () => setValue((prev) => prev + 1);
@@ -32,4 +32,3 @@ function App() {
     </div>
   );
 }
-export default App;

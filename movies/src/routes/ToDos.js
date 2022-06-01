@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { v4 as uuid } from 'uuid';
 
-function App() {
+export default function ToDos() {
   const [toDo, setToDo] = useState('');
   const [toDos, setToDos] = useState([]);
 
@@ -33,4 +33,3 @@ function App() {
     </div>
   );
 }
-export default App;

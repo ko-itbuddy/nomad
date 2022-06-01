@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { v4 as uuid } from 'uuid';
 
-function App() {
+export default function Coins() {
   const [loading, setLoading] = useState(true);
   const [coins, setCoins] = useState([]);
 
@@ -39,4 +39,3 @@ function App() {
     </div>
   );
 }
-export default App;

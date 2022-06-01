@@ -13,6 +13,7 @@
     "react-scripts": "5.0.1",
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
+
   },
   "scripts": {
     "start": "react-scripts start",
@@ -51,5 +52,5 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "gh-pages": "^4.0.0"
   },
-  "homepage": "https://ko-itbuddy.github.io/nomad"
+  "homepage": "http://ko-itbuddy.github.io/nomad-movies"
 }
